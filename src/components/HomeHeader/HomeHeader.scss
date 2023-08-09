@@ -1,0 +1,44 @@
+.home_header {
+  width: 100%;
+  height: 87vh;
+  background: url("../../assets/images/mheader.jpg") no-repeat center
+    center/cover;
+}
+
+.main_header {
+  height: 87vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 60px;
+}
+
+.header_contents {
+  h1 {
+    padding: 20px 0;
+    color: #274c5b;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  button {
+    width: 220px;
+    height: 70px;
+
+    background-color: #efd372;
+    color: #274c5b;
+    border: none;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    &:active{
+        background: #274c5b;
+        color: #efd372;
+    }
+  }
+}
