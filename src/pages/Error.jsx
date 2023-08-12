@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "../components/Nav/Nav";
 import arrow from "../assets/icons/arrow.svg";
 import { useNavigate } from "react-router-dom";
+import Footer from "../components/Footer/Footer";
 
 const Error = () => {
   const navigate = useNavigate();
@@ -21,6 +22,7 @@ const Error = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

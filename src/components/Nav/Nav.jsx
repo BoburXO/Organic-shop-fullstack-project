@@ -5,6 +5,12 @@ import cart from "../../assets/icons/cart.svg";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
+  React.useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <>
       <nav>
